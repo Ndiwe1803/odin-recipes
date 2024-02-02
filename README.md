@@ -1,0 +1,2 @@
+This project comes with goal of creating a website that has recipes. I'm hoping to put the basics of HTML to achieve the aims set foward earlier.
+I expect to have to make list, make use paragraphs, heading and all the other basics i have learned
