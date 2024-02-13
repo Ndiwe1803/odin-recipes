@@ -1,7 +1,11 @@
 body
 {
     font-family: garamond;
-    background-color: cornsilk;
+    width: 100vw;
+    height: 100vh;
+    /* background-color: cornsilk; */
+    background-image: url(./img/background.jpeg);
+    background-size: cover;
 
 }
 
@@ -11,7 +15,9 @@ body
     color: black;
     text-align: center;
     margin-top: 0px;
-    background-color: rgb(109,109,100);
+    background-color: rgb(103, 103, 103);
+    background-repeat: repeat-y;
+    /* background-color: rgb(109,109,100); */
 }
 .subtitle
 {
@@ -20,7 +26,7 @@ body
     text-align: center;
     margin-top: 5px;
     margin-bottom: .5em;
-    background-color: orangered;
+    background-color: rgb(178, 190, 181)
 }
 
 .recipe_list
@@ -29,23 +35,49 @@ body
     list-style: none;
     padding: .5em;
     margin: .5em;
-    border: 1px solid black;
+    border: 5px solid black;
     text-align: center;
+    background-color: rgb(226, 229, 222);
 }
 
 .recipe_menu
 {
-    padding: .5em;
-    margin: .5em;
-    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+    border: 5px solid black;
     text-align: center;
-    background-color: orangered;
+    background-color: or;
 
 }
+/* unvisited link */
+a:link {
+    color:rgb( 51, 102, 153);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb( 51, 102, 153);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: red;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb( 51, 102, 153);
+    text-decoration: none;
+  }
 
 .image
 {
     text-align: center;
     margin: 1em;
 }
+
+
 
