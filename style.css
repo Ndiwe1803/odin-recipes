@@ -1,4 +1,51 @@
-.body
+body
 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: garamond;
+    background-color: cornsilk;
+
 }
+
+.title
+{
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(109,109,100);
+}
+.subtitle
+{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: .5em;
+    background-color: orangered;
+}
+
+.recipe_list
+{
+    display: block;
+    list-style: none;
+    padding: .5em;
+    margin: .5em;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.recipe_menu
+{
+    padding: .5em;
+    margin: .5em;
+    border: 1px solid black;
+    text-align: center;
+    background-color: orangered;
+
+}
+
+.image
+{
+    text-align: center;
+    margin: 1em;
+}
+
