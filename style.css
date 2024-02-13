@@ -1,6 +1,6 @@
 body
 {
-    font-family: garamond;
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
     background-color: cornsilk;
     /* width: 100vw;
     height: 100vh;
@@ -16,7 +16,9 @@ body
     text-align: center;
     margin-top: 0px;
     background-color: rgb(103, 103, 103);
-    background-repeat: repeat-y;
+    font-weight: bolder;
+    /* background-repeat: repeat-y; */
+    /* font-family: monaco, Consolas, "Lucida Console", monospace; */
     /* background-color: rgb(109,109,100); */
 }
 .subtitle
@@ -53,12 +55,14 @@ body
 a:link {
     color:rgb( 51, 102, 153);
     text-decoration: none;
+    /* font-weight: bold; */
   }
   
   /* visited link */
   a:visited {
     color: rgb( 51, 102, 153);
     text-decoration: none;
+    /* font-weight: bold; */
   }
   
   /* mouse over link */
